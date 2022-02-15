@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9ee9bdbd4.js" crossorigin="anonymous"></script>   
+    <title>Document</title>
 </head>
 <body>
-   <h1> GPA CALCULATOR</h1>
-   <form action="">
-       
-       <input type="text">
-   </form>
-   
+    <div class="form">
+        <Label>
+            Enter Name
+        </Label>
+        <input type="text" name="" id="Name" required><br>
+        <label for="">
+            How many Courses are you offering
+        </label>
+        <input type="number" name="" id="courseNum"><br>
+        <button>
+            Submit
+        </button>
+        
+    </div>
+    <div class="form2">
+        <p class="fine">
+            Welcome
+        </p>
+        <div class="solve">
+            
+        </div>
+        <div>
+            <button id="myBtn">
+                Calculate CGPA
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+     <!-- Trigger/Open The Modal -->
+<!-- <button >Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <i class="fab fa-twitter fa-4x"></i>
+    <p class="dis">Your CGPA is  </p>
+  </div>
+
+</div> 
+    
+    <script src="index.js"></script>
 </body>
 </html>
